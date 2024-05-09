@@ -26,3 +26,6 @@ Lo más común o primero que se viene a la mente es aumentar el procesamiento de
 Hay unos parámetros dentro de la función SparkSession.builder que sirven para asignar recursos a tu sesión. Los siguientes parámetros sirven para asignar recursos a cada nodo de tu ambiente. Si se desea solo utilizar la mitad del total de los recursos, esto debería funcionar:
     .config("spark.executor.memory", "25g") \
     .config("spark.executor.cores", "6") \
+
+### 4. Histograma de llamadas por hora del día
+<img src="https://github.com/luisferlc/DataEnGrande/blob/main/hours-calls-histogram.png">
